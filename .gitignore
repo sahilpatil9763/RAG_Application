@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local database and generated data
+RAG_Database/
+.chroma/
+chroma_db/
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+.agents/
+.claude/
